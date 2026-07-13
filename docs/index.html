@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-07-13T14:51:50.231138+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-07-13T16:40:30.390335+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">12</div>
+        <div class="metric">1</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -152,6 +152,12 @@
 
     <div class="panel latest-section">
       <h2>Latest day details (2026-07-13)</h2>
+<div class='sentiment-group'>
+<h3>Bearish (1)</h3>
+<ul>
+<li><a href='https://topclassactions.com/lawsuit-settlements/lawsuit-news/class-action-alleges-apples-safari-browser-allows-user-tracking-despite-privacy-promises/' target='_blank' rel='noopener noreferrer'>Class action alleges Apple’s Safari browser allows user tracking despite privacy promises</a> <span class='meta'>— Top Class Actions</span></li>
+</ul>
+</div>
 <div class='sentiment-group'>
 <h3>Bullish (5)</h3>
 <ul>
@@ -201,9 +207,9 @@
 
   <script>
     const labels = ["2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-11", "2026-07-12", "2026-07-13"];
-    const articleCounts = [27, 65, 38, 26, 22, 13, 20];
-    const avgScores = [0.0718, 0.1484, 0.2036, 0.0402, 0.0716, 0.0998, 0.1265];
-    const labelCounts = {"Bearish": [1, 3, 1, 1, 2, 1, 0], "Bullish": [3, 11, 6, 1, 2, 0, 5], "Neutral": [10, 28, 13, 12, 7, 6, 7], "Somewhat-Bearish": [4, 3, 0, 4, 3, 0, 3], "Somewhat-Bullish": [9, 20, 18, 8, 8, 6, 5]};
+    const articleCounts = [27, 65, 38, 26, 22, 13, 21];
+    const avgScores = [0.0718, 0.1484, 0.2036, 0.0402, 0.0716, 0.0998, 0.0999];
+    const labelCounts = {"Bearish": [1, 3, 1, 1, 2, 1, 1], "Bullish": [3, 11, 6, 1, 2, 0, 5], "Neutral": [10, 28, 13, 12, 7, 6, 7], "Somewhat-Bearish": [4, 3, 0, 4, 3, 0, 3], "Somewhat-Bullish": [9, 20, 18, 8, 8, 6, 5]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
